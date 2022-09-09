@@ -1,0 +1,13 @@
+while True:
+    senha = str(input('Coloque a senha: '))
+    
+    if(senha == 'Senha123@'):
+        print('''
+        =============================
+        CONTA LOGADA, SEJA BEM VINDO!
+        =============================
+        ''')
+        break
+
+    else:
+        print('Senha Incorreta')
