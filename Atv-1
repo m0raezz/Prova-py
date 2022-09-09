@@ -1,0 +1,8 @@
+list = []
+
+for x in range(5):
+    list.append(input('Selecione um número: '))
+    
+
+print(list)
+
